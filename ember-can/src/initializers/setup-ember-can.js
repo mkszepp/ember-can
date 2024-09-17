@@ -1,6 +1,6 @@
 ﻿import Resolver from 'ember-resolver';
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
+// eslint-disable-next-line no-unused-vars
 class EmberCanResolver extends Resolver {
   pluralizedTypes = {
     ...this.pluralizedTypes,
