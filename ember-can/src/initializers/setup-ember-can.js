@@ -1,6 +1,6 @@
 ﻿import Resolver from 'ember-resolver';
 
-export default class AppResolver extends Resolver {
+class EmberCanResolver extends Resolver {
   pluralizedTypes = {
     ...this.pluralizedTypes,
     ability: 'abilities',
